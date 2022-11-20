@@ -91,10 +91,10 @@
                 <div
                     class="demo-btn flex gap-x-6  flex-col gap-y-4 sm:items-center md:items-start  lg:flex-row lg:items-center  lg:mb-10 ">
                     <a href=""
-                        class="text-lg px-4 py-3 bg-primary rounded-lg text-white transition-transform hover:transition-transform hover:shadow-md hover:shadow-primary hover:-translate-y-3 md:text-2xl md:px-5 md:py-4  lg:leading-[38px] lg:px-6 lg:py-[18px]">Try
+                        class="text-lg px-4 py-3 bg-primary rounded-lg text-white transition-transform hover:transition-transform group shadow-md shadow-transparent hover:shadow-primary hover:-translate-y-3 md:text-2xl md:px-5 md:py-4  lg:leading-[38px] lg:px-6 lg:py-[18px]">Try
                         Free
                         Demo
-                        <i class="fa-solid fa-angle-down pl-[10px]"></i>
+                        <i class="fa-solid fa-angle-down pl-[10px] group-hover:translate-x-2 transition-transform"></i>
                     </a>
                     <span class="text-muted text-lg leading-7  md:text-2xl md:leading-[38px]">— Web, iOs and
                         Android</span>
@@ -122,20 +122,25 @@
 
                 <div
                     class="clients gap-10 flex flex-col items-center sm:grid sm:grid-cols-2 justify-center md:justify-center md:flex-row md:flex md:flex-wrap lg:flex-nowrap md:gap-24">
-                    <a href="https://facebook.com" target="_blank" class="content-center">
-                        <img src="images/icons/facebook.png" alt="Facebook logo">
+                    <a href="https://facebook.com" target="_blank" class="content-center group">
+                        <img src="images/icons/colored-facebook.png" alt="Facebook logo"
+                            class="grayscale invert-[50%] opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
                     </a>
-                    <a href="https://google.com" target="_blank" class="">
-                        <img src="images/icons/google.png" alt="Google logo">
+                    <a href="https://google.com" target="_blank" class="group">
+                        <img src="images/icons/colored-google.png" alt="Google logo"
+                            class="grayscale invert-[50%] opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
                     </a>
-                    <a href="https://www.coca-cola.com/" target="_blank">
-                        <img src="images/icons/coca-cola.png" alt="Coca cola">
+                    <a href="https://www.coca-cola.com/" target="_blank" class="group">
+                        <img src="images/icons/colored-cocacola.png" alt="Coca cola"
+                            class="grayscale  opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
                     </a>
-                    <a href="https://linkedin.com/" target="_blank">
-                        <img src="images/icons/linkedin.png" alt="LinkedIn">
+                    <a href="https://linkedin.com/" target="_blank" class="group">
+                        <img src="images/icons/colored-linkedin.png" alt="LinkedIn"
+                            class="grayscale  opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
                     </a>
-                    <a href="https://www.samsung.com/" target="_blank">
-                        <img src="images/icons/samsung.png" alt="Samsung">
+                    <a href="https://www.samsung.com/" target="_blank" class="group">
+                        <img src="images/icons/colored-samsung.png" alt="Samsung"
+                            class="grayscale  opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
                     </a>
 
                 </div>
@@ -160,13 +165,14 @@
                     ipsum, amet quis
                     ullamcorper eget ut.
                 </p>
-                <a href="" class="">
-                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                <a href="" class="hover:!text-primary/70 group">
+                    Learn More <i class="fa-solid fa-arrow-right  group-hover:translate-x-2 transition-transform"></i>
                 </a>
             </div>
 
-            <div class="image-box">
-                <img src="images/always-online-section.png" alt="Always Online Image">
+            <div class="image-box group overflow-hidden hover:shadow-md hover:rounded-lg h-full">
+                <img src="images/always-online-section.png" alt="Always Online Image"
+                    class="group-hover:scale-125 group-hover:rotate-12 transition-transform">
             </div>
         </div>
     </section>
@@ -176,8 +182,9 @@
     <section id="cost" class="pb-32">
         <div class="two-row-section flex-col md:flex-row">
 
-            <div class="image-box">
-                <img src="images/cost-section.png" alt="Cost section image">
+            <div class="image-box group overflow-hidden hover:shadow-md hover:rounded-lg h-full">
+                <img src="images/cost-section.png" alt="Cost section image"
+                    class="group-hover:scale-125 group-hover:rotate-12 transition-transform">
             </div>
             <div class="text-box">
                 <span>free some cost</span>
@@ -185,8 +192,8 @@
                 <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim
                     ipsum, amet quis
                     ullamcorper eget ut.</p>
-                <a href="" class="">
-                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                <a href="" class="group hover:!text-primary/70">
+                    Learn More <i class="fa-solid fa-arrow-right  group-hover:translate-x-2 transition-transform"></i>
                 </a>
             </div>
 
@@ -203,12 +210,13 @@
                 <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim
                     ipsum, amet quis
                     ullamcorper eget ut.</p>
-                <a href="" class="">
-                    Learn More <i class="fa-solid fa-arrow-right"></i>
+                <a href="" class="group hover:!text-primary/70">
+                    Learn More <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
                 </a>
             </div>
-            <div class="image-box">
-                <img src="images/anytime-section.png" alt="Anytime section image">
+            <div class="image-box  group overflow-hidden hover:shadow-md hover:rounded-lg h-full">
+                <img src="images/anytime-section.png" alt="Anytime section image"
+                    class="group-hover:scale-125 group-hover:rotate-12 transition-transform">
             </div>
         </div>
     </section>
@@ -314,7 +322,8 @@
                 <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
                 <a href="" class="group-hover:text-white group-hover:bg-primary">
                     Get this
-                    <img src="images/icons/arrow-right.png" alt="Arrow right" class="group-hover:filter-white">
+                    <img src="images/icons/arrow-right.png" alt="Arrow right"
+                        class="group-hover:filter-white group-hover:translate-x-2 transition-transform">
                 </a>
             </div>
 
@@ -341,7 +350,8 @@
                 <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
                 <a href="" class="group-hover:text-white group-hover:bg-primary">
                     Get this
-                    <img src="images/icons/arrow-right.png" alt="Arrow right" class="group-hover:filter-white">
+                    <img src="images/icons/arrow-right.png" alt="Arrow right"
+                        class="group-hover:filter-white group-hover:translate-x-2 transition-transform">
                 </a>
             </div>
 
@@ -371,7 +381,8 @@
 
                 <a href="" class="group-hover:text-white group-hover:bg-primary">
                     Get this
-                    <img src="images/icons/arrow-right.png" alt="Arrow right" class="group-hover:filter-white">
+                    <img src="images/icons/arrow-right.png" alt="Arrow right"
+                        class="group-hover:filter-white group-hover:translate-x-2 transition-transform">
                 </a>
             </div>
 
@@ -406,8 +417,9 @@
                 with full
                 features.</p>
             <a href=""
-                class="py-[18px] px-6 bg-white border border-primary rounded-lg text-primary leading-[95%] text-[22px] font-normal text-center lg:hidden">Try
-                free demo <i class="fa-solid fa-angle-down pl-[10px]"></i></a>
+                class="py-[18px] px-6 bg-white border border-primary rounded-lg text-primary leading-[95%] text-[22px] font-normal text-center group transition-all  hover:bg-white/90 hover:-translate-y-2 lg:hidden">Try
+                free demo <i
+                    class="fa-solid fa-angle-down pl-[10px] group-hover:translate-x-1 transition-transform"></i></a>
 
         </div>
         <div class="flex justify-center flex-col lg:flex-row">
@@ -421,8 +433,9 @@
 
             <div class="mx-auto hidden lg:block">
                 <a href=""
-                    class="py-[18px] px-6 bg-white border border-primary rounded-lg text-primary leading-[95%] text-[22px] font-normal text-center">Try
-                    free demo <i class="fa-solid fa-angle-down pl-[10px]"></i></a>
+                    class="py-[18px] px-6 bg-white border border-primary rounded-lg text-primary leading-[95%] text-[22px] font-normal text-center group transition-all hover:bg-white/90 hover:-translate-y-2 ">Try
+                    free demo <i
+                        class="fa-solid fa-angle-down pl-[10px] group-hover:translate-x-1 transition-transform"></i></a>
             </div>
 
 
@@ -453,22 +466,57 @@
                         <div class="footer-menu">
                             <h4>links</h4>
                             <ul class="flex flex-col">
-                                <li>Home</li>
-                                <li>About Us</li>
-                                <li>Careers</li>
-                                <li>Pricing</li>
-                                <li>Features</li>
-                                <li>Blog</li>
+                                <li>
+                                    <a href="">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">About Us</a>
+                                </li>
+                                <li><a href="">
+                                        Careers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Features
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Blog
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 
                         <div class="footer-menu">
                             <h4>legal</h4>
                             <ul class="flex flex-col">
-                                <li>Terms of use</li>
-                                <li>Terms of condition</li>
-                                <li>Privacy policy</li>
-                                <li>Cookie policy</li>
+                                <li>
+                                    <a href="">
+                                        Terms of use
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Terms of condition
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Privacy policy
+                                    </a>
+                                </li>
+                                <li>
+                                    Cookie policy
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -480,9 +528,9 @@
                         <div
                             class="input-group border-none border  rounded-lg mb-[10px] flex flex-col sm:flex-row sm:border-solid sm:border-muted ">
                             <input type="text" placeholder="Enter your email"
-                                class="font-normal text-lg leading-7 text-dark  pl-[22px] border border-muted/20 rounded-lg py-2 placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none sm:w-full sm:border-none md:py-4 md:w-min">
+                                class="font-normal text-lg leading-7 text-dark  pl-[22px] border border-muted/20 rounded-lg py-2 placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none focus:placeholder:scale-75 placeholder:transition-all sm:w-full sm:border-none md:py-4 md:w-min">
                             <button
-                                class="py-[10px] px-4 bg-primary font-semibold text-base leading-[26px] rounded-lg mr-[6px] text-white my-[6px]">
+                                class="py-[10px] px-4 bg-primary font-semibold text-base leading-[26px] rounded-lg mr-[6px] text-white my-[6px] hover:bg-primary/80 transition-all">
                                 Subscribe
                             </button>
                         </div>
