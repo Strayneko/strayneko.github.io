@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpense</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- Header section start -->
+    <header id="header" class="lg:mt-14 mt-2 transition-all absolute w-full">
+
+        <div class="container py-4 flex items-center justify-between relative lg:py-1">
+            <div class="navbar-brand place-self-start lg:place-self-auto">
+                <a href="#">
+                    <img src="images/icons/logo-xpense.png" alt="Xpense Logo">
+                </a>
+            </div>
+
+            <button class="absolute right-4 top-3 lg:hidden" type="button" id="hamburger">
+                <span class="hamburger-line transition ease-in-out duration-300 origin-top-left"></span>
+                <span class="hamburger-line transition ease-in-out duration-300"></span>
+                <span class="hamburger-line transition ease-in-out duration-300 origin-bottom-left"></span>
+            </button>
+
+
+            <nav
+                class="navbar-menu hidden absolute  right-4 top-10 self-start bg-white py-6 px-4 rounded-lg shadow-lg lg:flex lg:static lg:shadow-none lg:bg-transparent">
+                <ul class="flex gap-x-10 flex-col gap-y-2 text-center lg:flex-row lg:gap-y-0">
+                    <li>
+                        <a href="#overview" class="active">
+                            Features
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#always-online">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pricing">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#feedback">
+                            Feedback
+                        </a>
+                    </li>
+                    <li class="mt-4 lg:mt-0">
+                        <a href=""
+                            class="py-2 px-4 border leading-[95%] font-normal text-base border-primary !text-primary rounded-lg transition-colors hover:!text-white   hover:bg-primary  lg:hidden">Request
+                            a
+                            demo</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="action hidden lg:block">
+                <a href=""
+                    class="py-[0.875rem] px-[18px]  leading-[95%] font-normal text-lg  border border-primary text-primary rounded-lg transition-colors hover:text-white  hover:bg-primary hover:translate-y-3">Request
+                    a
+                    demo</a>
+            </div>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- hero section start -->
+    <section id="hero" class="pt-24 md:pt-30 lg:pt-[186px]">
+        <div class="container flex flex-col-reverse pb-24 md:flex-row lg:pb-[13.125rem]">
+            <div class="left text-center md:text-left lg:w-2/3 ">
+                <h1 class="font-bold text-3xl  leading-[100%] mb-5 text-dark sm:text-4xl md:text-5xl  lg:text-8xl">Track
+                    your
+                    Expenses to
+                    Save Money
+                </h1>
+                <p class="text-muted font-normal  mb-4  text-xl leading-7 md:text-2xl  md:leading-[38px]">Helps
+                    you to
+                    organize
+                    your
+                    income and
+                    expenses </p>
+                <div
+                    class="demo-btn flex gap-x-6  flex-col gap-y-4 sm:items-center md:items-start  lg:flex-row lg:items-center  lg:mb-10 ">
+                    <a href=""
+                        class="text-lg px-4 py-3 bg-primary rounded-lg text-white transition-transform hover:transition-transform group shadow-md shadow-transparent hover:shadow-primary hover:-translate-y-3 md:text-2xl md:px-5 md:py-4  lg:leading-[38px] lg:px-6 lg:py-[18px]">Try
+                        Free
+                        Demo
+                        <i class="fa-solid fa-angle-down pl-[10px] group-hover:translate-x-2 transition-transform"></i>
+                    </a>
+                    <span class="text-muted text-lg leading-7  md:text-2xl md:leading-[38px]">— Web, iOs and
+                        Android</span>
+                </div>
+            </div>
+            <div class="right mb-10 lg:mb-0 grow ">
+                <img src="images/Illustration.png" alt="Illustration" class="w-full">
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- overview section start -->
+    <section id="overview" class="bg-[url('../images/bg-overview-section.png')] mb-[82px] bg-center bg-cover">
+        <div class="container pt-[5.375rem]">
+            <img src="images/overview-image.png" alt="Overview image" class="">
+        </div>
+    </section>
+    <!-- overview section end -->
+
+    <!-- Clients section start -->
+    <section id="clients" class="mb-[66px]">
+        <div class="container flex">
+            <div class="flex justify-center w-full">
+
+                <div
+                    class="clients gap-10 flex flex-col items-center sm:grid sm:grid-cols-2 justify-center md:justify-center md:flex-row md:flex md:flex-wrap lg:flex-nowrap md:gap-24">
+                    <a href="https://facebook.com" target="_blank" class="content-center group">
+                        <img src="images/icons/colored-facebook.png" alt="Facebook logo"
+                            class="grayscale invert-[50%] opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
+                    </a>
+                    <a href="https://google.com" target="_blank" class="group">
+                        <img src="images/icons/colored-google.png" alt="Google logo"
+                            class="grayscale invert-[50%] opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
+                    </a>
+                    <a href="https://www.coca-cola.com/" target="_blank" class="group">
+                        <img src="images/icons/colored-cocacola.png" alt="Coca cola"
+                            class="grayscale  opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="group">
+                        <img src="images/icons/colored-linkedin.png" alt="LinkedIn"
+                            class="grayscale  opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
+                    </a>
+                    <a href="https://www.samsung.com/" target="_blank" class="group">
+                        <img src="images/icons/colored-samsung.png" alt="Samsung"
+                            class="grayscale  opacity-30 hover:grayscale-0 hover:invert-0 hover:scale-105 hover:rotate-3 hover:opacity-100 transition-all">
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Clients section end -->
+
+
+    <!-- always online section start -->
+    <section id="always-online" class="py-32">
+        <div class="two-row-section flex-col-reverse md:flex-row">
+
+            <div class="text-box text-center">
+                <span class="">Always Online</span>
+                <h2 class="">
+                    Real Time Support With Cloud
+                </h2>
+                <p class="">
+                    Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim
+                    ipsum, amet quis
+                    ullamcorper eget ut.
+                </p>
+                <a href="" class="hover:!text-primary/70 group">
+                    Learn More <i class="fa-solid fa-arrow-right  group-hover:translate-x-2 transition-transform"></i>
+                </a>
+            </div>
+
+            <div class="image-box group overflow-hidden hover:shadow-md hover:rounded-lg h-full">
+                <img src="images/always-online-section.png" alt="Always Online Image"
+                    class="group-hover:scale-125 group-hover:rotate-12 transition-transform">
+            </div>
+        </div>
+    </section>
+    <!-- always online section end -->
+
+    <!-- cost section start -->
+    <section id="cost" class="pb-32">
+        <div class="two-row-section flex-col md:flex-row">
+
+            <div class="image-box group overflow-hidden hover:shadow-md hover:rounded-lg h-full">
+                <img src="images/cost-section.png" alt="Cost section image"
+                    class="group-hover:scale-125 group-hover:rotate-12 transition-transform">
+            </div>
+            <div class="text-box">
+                <span>free some cost</span>
+                <h2>Save cost for you and family</h2>
+                <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim
+                    ipsum, amet quis
+                    ullamcorper eget ut.</p>
+                <a href="" class="group hover:!text-primary/70">
+                    Learn More <i class="fa-solid fa-arrow-right  group-hover:translate-x-2 transition-transform"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- cost section end -->
+
+    <!-- section anytime start -->
+    <section id="anytime" class="pb-32">
+        <div class="two-row-section flex-col-reverse md:flex-row">
+            <div class="text-box">
+                <span>use anytime</span>
+                <h2>Use anytime when you need</h2>
+                <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim
+                    ipsum, amet quis
+                    ullamcorper eget ut.</p>
+                <a href="" class="group hover:!text-primary/70">
+                    Learn More <i class="fa-solid fa-arrow-right group-hover:translate-x-2 transition-transform"></i>
+                </a>
+            </div>
+            <div class="image-box  group overflow-hidden hover:shadow-md hover:rounded-lg h-full">
+                <img src="images/anytime-section.png" alt="Anytime section image"
+                    class="group-hover:scale-125 group-hover:rotate-12 transition-transform">
+            </div>
+        </div>
+    </section>
+    <!-- section anytime end -->
+
+    <!-- product_work section start -->
+    <section id="product_work">
+        <div class="two-row-section flex-col mb-20 md:flex-row ">
+
+            <div class="text-box md:!w-[60%] lg:!w-[calc(100%_*_8_/_12)]">
+                <h2 class="text-xl sm:text-2xl md:!text-6xl lg:!text-8xl lg:!leading-[96px] lg:!w-full">The Product we
+                    work with.
+                </h2>
+            </div>
+
+            <div class="md:!w-[40%] lg:w-[calc(100%_/_3)]">
+                <p class="font-normal text-muted text-lg md:text-xl lg:text-2xl lg:leading-[38px] lg:w-full">
+                    Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim
+                    ipsum,
+                    at quis
+                    ullamcorper eget ut.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container md:pb-30 lg:pb-[138px]">
+            <div
+                class="features flex flex-col gap-y-16 md:flex-row md:flex-wrap md:gap-y-0 md:justify-center lg:flex-nowrap">
+
+                <div class="feature-box">
+                    <div class="box">
+                        <img src="images/icons/laptop.png" alt="Laptop Icon" class="mb-6">
+                        <h3 class="">Cross Platform</h3>
+                        <p class="">Elit esse cillum dolore eu
+                            fugiat
+                            nulla pariatur
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="feature-box">
+                    <div class="box">
+                        <img src="images/icons/cloud.png" alt="Cloud Icon" class="mb-6">
+                        <h3 class="">Cloud Server</h3>
+                        <p class="">Elit esse cillum dolore eu
+                            fugiat
+                            nulla pariatur
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="feature-box">
+                    <div class="box">
+                        <img src="images/icons/pure-js.png" alt="Pure javascript Icon" class="mb-6">
+                        <h3 class="">Pure Javascript</h3>
+                        <p class="">Elit esse cillum dolore eu
+                            fugiat
+                            nulla pariatur
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- product_work section end -->
+
+    <!-- Pricing section start -->
+    <section id="pricing" class="py-[124px]">
+        <div class="container mb-16">
+            <h2 class="font-bold text-dark text-2xl leading-[100%] sm:text-4xl text-center md:text-4xl">Choose your
+                flexible plan.
+            </h2>
+        </div>
+        <div
+            class="container flex items-center flex-col gap-5 md:flex-row md:flex-wrap md:justify-center lg:justify-start lg:gap-[40px]">
+
+            <div class="group pricing-box">
+                <div class="mb-5 plan-icon">
+                    <img src="images/icons/bag.png" alt="Bag icon">
+                </div>
+                <h3 class="">Starter Plan</h3>
+                <ul class="">
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Store unlimited data
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Export to pdf, xls, csv
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Cloud server support
+                    </li>
+                </ul>
+                <strong class=" ">$9.99/<span class="year">year</span></strong>
+                <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
+                <a href="" class="group-hover:text-white group-hover:bg-primary">
+                    Get this
+                    <img src="images/icons/arrow-right.png" alt="Arrow right"
+                        class="group-hover:filter-white group-hover:translate-x-2 transition-transform">
+                </a>
+            </div>
+
+            <div class="group pricing-box">
+                <div class="mb-5 plan-icon">
+                    <img src="images/icons/gift-box.png" alt="Gift box icon">
+                </div>
+                <h3 class="">Silver Plan</h3>
+                <ul class="">
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Store unlimited data
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Export to pdf, xls, csv
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Cloud server support
+                    </li>
+                </ul>
+                <strong class=" ">$19.99/<span class="year">year</span></strong>
+                <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
+                <a href="" class="group-hover:text-white group-hover:bg-primary">
+                    Get this
+                    <img src="images/icons/arrow-right.png" alt="Arrow right"
+                        class="group-hover:filter-white group-hover:translate-x-2 transition-transform">
+                </a>
+            </div>
+
+            <div class="group pricing-box">
+                <div class="mb-5 plan-icon">
+                    <img src="images/icons/ac.png" alt="Ac icon">
+                </div>
+                <h3 class="">Diamond Plan</h3>
+
+                <ul class="">
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Store unlimited data
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Export to pdf, xls, csv
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-check text-muted"></i>
+                        Cloud server support
+                    </li>
+                </ul>
+
+                <strong class=" ">$29.99/<span class="year">year</span></strong>
+                <small class="font-normal text-xs leading-5 text-muted block mb-10">up to 3 user + 1.99 per user</small>
+
+                <a href="" class="group-hover:text-white group-hover:bg-primary">
+                    Get this
+                    <img src="images/icons/arrow-right.png" alt="Arrow right"
+                        class="group-hover:filter-white group-hover:translate-x-2 transition-transform">
+                </a>
+            </div>
+
+
+
+
+        </div>
+    </section>
+    <!-- Pricing section end -->
+
+    <!-- Feedback section start -->
+    <section id="feedback" class="pb-[146px] pt-[120px]">
+        <div class="container mb-7 lg:mb-[80px]">
+            <h3 class="font-bold  leading-[100%] text-4xl text-dark text-center">We have millions of best wishers</h3>
+        </div>
+
+        <div class="carousel-wrapper overflow-x-auto pb-[10px]">
+
+            <div class="carousel mx-6  h-[250px] inline-flex gap-[30px]   ">
+
+
+                <div
+                    class="carousel-content px-7 pt-4 pb-[78px] border-t-[10px] rounded-tr-xl rounded-tl-xl border-t-[#FF7235] inline-block  w-[340px] md:w-[350px]">
+                    <figcaption class="text-lg text-black leading-7 font-normal mb-6">
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus.
+                        Vel, fringilla sit eros
+                        pretium felis massa mauris, aliquam congue.
+                    </figcaption>
+                    <div class="flex gap-3">
+                        <img src="images/ppl-1.png" alt="Review 1">
+                        <h5 class="font-bold text-[18px] leading-[26px]">Cameron Williamson, <span
+                                class="font-normal text-muted leading-6">CEO</span></h5>
+                    </div>
+                </div>
+
+
+                <div
+                    class="carousel-content px-7 pt-4 pb-[78px] border-t-[10px] rounded-tr-xl rounded-tl-xl border-t-[#FFBE21] inline-block w-[350px]">
+                    <figcaption class="text-lg text-black leading-7 font-normal mb-6">
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus.
+                        Vel, fringilla sit eros
+                        pretium felis massa mauris, aliquam congue.
+                    </figcaption>
+                    <div class="flex gap-3">
+                        <img src="images/ppl-1.png" alt="Review 1">
+                        <h5 class="font-bold text-[18px] leading-[26px]">Cameron Williamson, <span
+                                class="font-normal text-muted leading-6">CEO</span></h5>
+                    </div>
+                </div>
+
+
+                <div
+                    class="carousel-content px-7 pt-4 pb-[78px] border-t-[10px] rounded-tr-xl rounded-tl-xl border-t-[#4756DF] inline-block w-[350px]">
+                    <figcaption class="text-lg text-black leading-7 font-normal mb-6">
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus.
+                        Vel, fringilla sit eros
+                        pretium felis massa mauris, aliquam congue.
+                    </figcaption>
+                    <div class="flex gap-3">
+                        <img src="images/ppl-1.png" alt="Review 1">
+                        <h5 class="font-bold text-[18px] leading-[26px]">Cameron Williamson, <span
+                                class="font-normal text-muted leading-6">CEO</span></h5>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="carousel-content px-7 pt-4 pb-[78px] border-t-[10px] rounded-tr-xl rounded-tl-xl border-t-[#3EC1F3] inline-block w-[350px]">
+                    <figcaption class="text-lg text-black leading-7 font-normal mb-6">
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus.
+                        Vel, fringilla sit eros
+                        pretium felis massa mauris, aliquam congue.
+                    </figcaption>
+                    <div class="flex gap-3">
+                        <img src="images/ppl-1.png" alt="Review 1">
+                        <h5 class="font-bold text-[18px] leading-[26px]">Cameron Williamson, <span
+                                class="font-normal text-muted leading-6">CEO</span></h5>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="carousel-content px-7 pt-4 pb-[78px] border-t-[10px] rounded-tr-xl rounded-tl-xl border-t-[#BB7259] inline-block w-[350px]">
+                    <figcaption class="text-lg text-black leading-7 font-normal mb-6">
+                        Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus.
+                        Vel, fringilla sit eros
+                        pretium felis massa mauris, aliquam congue.
+                    </figcaption>
+                    <div class="flex gap-3">
+                        <img src="images/ppl-1.png" alt="Review 1">
+                        <h5 class="font-bold text-[18px] leading-[26px]">Cameron Williamson, <span
+                                class="font-normal text-muted leading-6">CEO</span></h5>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Feedback section end -->
+
+    <!-- Demo section start -->
+    <section id="demo" class="bg-[url('../images/bg-demo.png')] bg-center bg-cover pt-[120px] pb-[92px]">
+
+        <h2 class="font-bold leading-[100%] text-3xl text-center text-white mb-6 lg:text-4xl">20M+ downloaded from 32
+            diffrent
+            countires</h2>
+        <div class="mx-auto flex justify-center mb-10 flex-col items-center">
+            <p
+                class="font-medium leading-[100%] text-2xl text-center text-white mb-10 inline-block mx-auto lg:text-3xl">
+                Try
+                demo
+                for 7 days
+                with full
+                features.</p>
+            <a href=""
+                class="py-[18px] px-6 bg-white border border-primary rounded-lg text-primary leading-[95%] text-[22px] font-normal text-center group transition-all  hover:bg-white/90 hover:-translate-y-2 lg:hidden">Try
+                free demo <i
+                    class="fa-solid fa-angle-down pl-[10px] group-hover:translate-x-1 transition-transform"></i></a>
+
+        </div>
+        <div class="flex justify-center flex-col lg:flex-row relative">
+
+            <div class="mx-auto">
+                <div class="left md:w-[456px] w-1/2 flex justify-between md:h-[322px] h-1/2 -space-x-6">
+                    <img src="images/left-1.png" alt="" class="self-start relative z-[1] w-full">
+                    <img src="images/left-2.png" alt="" class="self-end w-full">
+                </div>
+            </div>
+
+            <div class="mx-auto hidden lg:block  w-[220px]">
+                <a href=""
+                    class="py-[18px] px-6 bg-white border border-primary rounded-lg text-primary leading-[95%] text-[22px] font-normal text-center group transition-all hover:bg-white/90 hover:-translate-y-2 absolute w-w-[220px]">Try
+                    free demo <i
+                        class="fa-solid fa-angle-down pl-[10px] group-hover:translate-x-1 transition-transform"></i></a>
+            </div>
+
+
+            <div class="mx-auto">
+                <div class="right md:w-[456px] w-1/2 flex justify-between md:h-[322px] h-1/2 -space-x-6 ">
+                    <img src="images/left-1.png" alt="" class="self-end w-full">
+                    <img src="images/left-2.png" alt="" class="self-start relative z-[1] w-full">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Demo section end -->
+    <!-- footer start -->
+    <footer id="footer">
+
+        <section id="footer_menu" class="pt-5 lg:pt-20 lg:mb-10">
+            <div class="container flex flex-col lg:flex-row lg:w-full">
+
+                <div class="footer-menu mb-6 md:place-self-center md:mb-10  lg:mr-[202px] lg:self-start">
+                    <img src="images/icons/logo-xpense.png" alt="Logo Xpense">
+                </div>
+
+                <div class="flex flex-wrap justify-between md:flex-nowrap  lg:w-full">
+                    <div
+                        class="menus flex justify-between w-full mb-10 md:justify-between md:pr-16 lg:justify-start lg:gap-x-[116px] lg:pr-0">
+                        <div class="footer-menu">
+                            <h4>links</h4>
+                            <ul class="flex flex-col">
+                                <li>
+                                    <a href="">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">About Us</a>
+                                </li>
+                                <li><a href="">
+                                        Careers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Features
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-menu">
+                            <h4>legal</h4>
+                            <ul class="flex flex-col">
+                                <li>
+                                    <a href="">
+                                        Terms of use
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Terms of condition
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Privacy policy
+                                    </a>
+                                </li>
+                                <li>
+                                    Cookie policy
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-menu mx-auto md:mx-0 lg:px-0  sm:w-[90%] md:w-fit">
+                        <h4>newsletter</h4>
+                        <p class="text-muted font-normal  leading-8 mb-[18px] block sm:text-xl">Over 25000 people
+                            have subscribed</p>
+                        <div
+                            class="input-group border-none border  rounded-lg mb-[10px] flex flex-col sm:flex-row sm:border-solid sm:border-muted ">
+                            <input type="text" placeholder="Enter your email"
+                                class="font-normal text-lg leading-7 text-dark  pl-[22px] border border-muted/20 rounded-lg py-2 placeholder:font-normal placeholder:text-lg placeholder:leading-7 placeholder:text-dark focus:border-none focus:outline-none focus:placeholder:scale-75 placeholder:transition-all sm:w-full sm:border-none md:py-4 md:w-min">
+                            <button
+                                class="py-[10px] px-4 bg-primary font-semibold text-base leading-[26px] rounded-lg mr-[6px] text-white my-[6px] hover:bg-primary/80 transition-all">
+                                Subscribe
+                            </button>
+                        </div>
+                        <small class="text-muted font-normal text-sm leading-6">We don’t sell your email and
+                            spam</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer" class="pb-5 pt-5 border border-muted/20 mb:pb-[90px]">
+            <div class="container">
+                <div class="flex flex-col gap-5 items-center lg:flex-row lg:justify-between">
+                    <div class="">
+                        <a href="" class="font-normal leading-6 text-sm text-dark mr-6">Privacy & terms</a>
+                        <a href="" class="font-normal leading-6 text-sm text-dark">Contact Us</a>
+                    </div>
+                    <div class="font-normal text-sm leading-6 text-dark">
+                        Copyright @ 2022 xpence
+                    </div>
+                    <div class="">
+                        <ul class="flex gap-3 lg:gap-4">
+                            <li><a href=""><i class="fa-brands fa-square-facebook text-dark text-xl"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-twitter text-dark text-xl"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin text-dark text-xl"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+    <!-- Main javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
